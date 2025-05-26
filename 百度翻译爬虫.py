@@ -22,7 +22,7 @@ def attack_yd(word):
     salt,ts,sign = get_salt_sign_ts(word)
 #     定义
     url = ''
-  # headers和data是自己抓取，因为参考的比较久，反扒机制已经升级，这里就没写，过几天写个新的
+  # headers和data是自己抓取，因为参考的比较久，反扒机制已经升级，这里就没写，过几天写个新的。
     headers={}
     data = {}
     html_json=requests.post(
